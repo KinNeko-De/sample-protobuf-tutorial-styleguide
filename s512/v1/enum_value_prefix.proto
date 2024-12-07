@@ -10,6 +10,6 @@ package s512.v1;
 //   ENUM_NAME_FIRST_VALUE = 1;
 // }
 enum EnumName {
-  UNSPECIFIED = 0;
-  FIRST_VALUE = 1;
+  ENUM_NAME_UNSPECIFIED = 0;
+  ENUM_NAME_FIRST_VALUE = 1;
 }

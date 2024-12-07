@@ -8,5 +8,5 @@ package s515.v1;
 //   ENUM_NAME_UNSPECIFIED = 0;
 // }
 enum EnumName {
-  ENUM_NAME_UNSPECIFIED = 1;
+  ENUM_NAME_UNSPECIFIED = 0;
 }

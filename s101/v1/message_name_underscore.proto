@@ -3,6 +3,6 @@ syntax = "proto3";
 package s101.v1;
 
 // Solution: Rename the message to UnderScore
-message under_score {
+message UnderScore {
   string test = 1;
 }

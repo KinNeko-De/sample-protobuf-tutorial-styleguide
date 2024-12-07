@@ -4,14 +4,23 @@ package s611.v1;
 
 message OneOnf {
   oneof person {
-    string natural = 1;
-    string company = 2;
+    NaturalPerson natural = 1;
+    LegalPerson company = 2;
   }
 
   // Fields inside message needs to have unique names even if they are inside a oneof
   // Solution: Rename the fields and extract them to a separate message
   oneof customer {
-    string natural = 3;
-    string company = 4;
+    NaturalPerson b2c = 3;
+    LegalPerson b2b = 4;
   }
+}
+
+message NaturalPerson {
+  string given_name = 1;
+  string family_name = 2;
+}
+
+message LegalPerson {
+  string name = 1;
 }

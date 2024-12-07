@@ -7,6 +7,6 @@ package s500.v1;
 // enum CamelCase {
 //   CAMEL_CASE_UNSPECIFIED = 0;
 // }
-enum camelCase {
+enum CamelCase {
   CAMEL_CASE_UNSPECIFIED = 0;
 }
