@@ -8,5 +8,5 @@ package s510.v1;
 //   PASCAL_CASE_VALUE_UNSPECIFIED = 0;
 // }
 enum PascalCaseValue {
-  PascalCaseValueUnspeficied = 0;
+  PASCAL_CASE_VALUE_UNSPECIFIED = 0;
 }

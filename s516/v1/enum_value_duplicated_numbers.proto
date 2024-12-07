@@ -9,5 +9,5 @@ package s516.v1;
 // }
 enum Enum {
   ENUM_UNSPECIFIED = 0;
-  ENUM_FIRST_VALUE = 0;
+  ENUM_FIRST_VALUE = 1;
 }

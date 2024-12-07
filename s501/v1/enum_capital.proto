@@ -8,6 +8,6 @@ package s501.v1;
 //  CAPITAL_UNSPECIFIED = 0;
 // }
 
-enum CAPITAL {
+enum Capital {
   CAPITAL_UNSPECIFIED = 0;
 }
