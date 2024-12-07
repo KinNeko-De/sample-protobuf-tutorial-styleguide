@@ -5,5 +5,5 @@ package s212.v1;
 // Typo in the type name
 // Solution: Change the type name from "strng" to "string"
 message TypoInType {
-  strng test = 1;
+  string test = 1;
 }

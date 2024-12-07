@@ -8,6 +8,6 @@ message DuplicateMessage {
 
 // Duplicate message definition
 // Solution: Rename the message to "NotADuplicateMessageAnymore"
-message DuplicateMessage {
+message NotADuplicateMessageAnymore {
   string another = 1;
 }

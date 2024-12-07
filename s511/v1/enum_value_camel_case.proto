@@ -8,5 +8,5 @@ package s511.v1;
 //   CAMEL_CASE_VALUE_UNSPECIFIED = 0;
 // }
 enum CamelCaseValue {
-  camelCaseValueUnspeficied = 0;
+  CAMEL_CASE_VALUE_UNSPECIFIED = 0;
 }

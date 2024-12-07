@@ -6,7 +6,7 @@ message IUseALocalIMessage {
   // This import is working.
   // However, it is advisable to replace it with the full qualified name to avoid inadvertently using the other types when the file is split.
   // Solution: Replace the import with "s420.v1.IAmUsed"
-  IAmUsed test = 1;
+  s420.v1.IAmUsed test = 1;
 }
 
 message IAmUsed {

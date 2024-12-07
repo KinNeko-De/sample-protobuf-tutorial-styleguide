@@ -5,7 +5,7 @@ package s601.v1;
 message OneOnf {
   // Name of oneof should be snake case
   // Solution: Rename the message to person_type
-  oneof PersonType {
+  oneof person_type {
     string natural_name = 1;
     string company_name = 2;
   }

@@ -3,7 +3,7 @@ syntax = "proto3";
 // Although the style guide allows you to use a package name that has no version, it is not recommended.
 // Google.Protobuf is a good example for a package without version because there will be no breaking changes ever.
 // Everything else should be defined with a version in mind.
-package s330;
+package s330.v1;
 
 message Test {
   string test = 1;
