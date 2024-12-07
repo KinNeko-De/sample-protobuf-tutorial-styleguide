@@ -4,6 +4,6 @@ package s100.v1;
 
 // Name of message should be PascalCase
 // Solution: Rename the message to CamelCase
-message camelCase {
+message CamelCase {
   string test = 1;
 }
