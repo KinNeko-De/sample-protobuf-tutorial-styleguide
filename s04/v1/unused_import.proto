@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package s04.v2;
+package s04.v1;
 
 // This import is not used
 // TODO Is not reported by the extension nor the buf linter, it is detected if I move it to the other package
