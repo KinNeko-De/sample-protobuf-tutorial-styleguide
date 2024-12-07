@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package s210.v1;
+
+// Solution: Add a semicolon at the end of the field
+message MissingSemicolon {
+  string test = 1
+}

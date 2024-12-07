@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package s501.v1;
+
+// Names should be PascalCase
+// Solution: Rename enum to Capital
+// enum Capital {
+//  CAPITAL_UNSPECIFIED = 0;
+// }
+
+enum CAPITAL {
+  CAPITAL_UNSPECIFIED = 0;
+}

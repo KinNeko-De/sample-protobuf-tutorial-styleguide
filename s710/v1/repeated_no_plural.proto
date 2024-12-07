@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package s710.v1;
+
+message IContainAListOfStrings {
+  // The field name is singular, but the field is repeated.
+  // Solution: rename the field to `values`
+  repeated string value = 1;
+}

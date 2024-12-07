@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package s500.v1;
+
+// Enum name should be PascalCase
+// Solution: rename enum to 'CamelCase'
+// enum CamelCase {
+//   CAMEL_CASE_UNSPECIFIED = 0;
+// }
+enum camelCase {
+  CAMEL_CASE_UNSPECIFIED = 0;
+}

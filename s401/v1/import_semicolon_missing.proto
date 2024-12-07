@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package s401.v1;
+
+// Import must end with a semicolon
+// Solution: import "google/protobuf/timestamp.proto";
+import "google/protobuf/timestamp.proto"
+
+message ImportSyntax {
+  google.protobuf.Timestamp test = 1;
+}

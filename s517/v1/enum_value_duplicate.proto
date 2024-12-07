@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package s517.v1;
+
+enum ValidEnum {
+  VALID_ENUM_UNSPECIFIED = 0;
+  VALID_ENUM_FIRST_VALUE = 1;
+}
+
+// This enum was copied but the values were not changed
+// Solution: Rename the values to match the new enum name
+// enum CopiedEnum {
+//   COPIED_ENUM_UNSPECIFIED = 0;
+//   COPIED_ENUM_FIRST_VALUE = 1;
+// }
+enum CopiedEnum {
+  VALID_ENUM_UNSPECIFIED = 0;
+  VALID_ENUM_FIRST_VALUE = 1;
+}

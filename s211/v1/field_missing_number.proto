@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package s211.v1;
+
+// Field name must have a tag number beginning with 1
+// Solution: Add the tag number 1 to the field 'test'
+message MissingNumber {
+  string test;
+}

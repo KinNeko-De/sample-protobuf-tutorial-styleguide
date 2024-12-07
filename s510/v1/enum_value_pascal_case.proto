@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package s510.v1;
+
+// Enum value name should be CAPITALS_WITH_UNDERSCORES
+// Solution: rename value to PASCAL_CASE_VALUE_UNSPECIFIED
+// enum PascalCaseValue {
+//   PASCAL_CASE_VALUE_UNSPECIFIED = 0;
+// }
+enum PascalCaseValue {
+  PascalCaseValueUnspeficied = 0;
+}
