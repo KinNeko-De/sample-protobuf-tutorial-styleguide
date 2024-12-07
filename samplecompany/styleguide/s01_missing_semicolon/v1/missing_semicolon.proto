@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package samplecompany.styleguide.s01_missing_semicolon.v1;
+
+message MissingSemicolon {
+  string test = 1
+}

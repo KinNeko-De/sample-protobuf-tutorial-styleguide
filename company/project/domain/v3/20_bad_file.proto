@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+// TODO bad file names seam to break the vs extension original file name is 20_bad file.proto
+
+package company.project.domain.v3;
+
+message BadFileName {
+  // TODO This error is not detected by the extension but by buf lint
+  string test = 1;
+}

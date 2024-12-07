@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package samplecompany.styleguide.s00_valid_type.v1;
+
+message ValidType {
+  string test = 1;
+}

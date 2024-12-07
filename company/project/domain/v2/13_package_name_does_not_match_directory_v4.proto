@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+// This package name does not match the directory structure.
+// The proto file was copied but the package name was not updated.
+// Solution: Update the package name to "company.project.domain.v2"
+// TODO This directory does not exist so an error is shown in the extension, but buf lint does not detect this error
+package company.project.domain.v4;
+
+message PackageNameDoesNotMatchDirectoryV4 {
+  string test = 1;
+}

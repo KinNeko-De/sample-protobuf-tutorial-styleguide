@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package company.project.domain.v1;
+
+message IImportALocalImport {
+  // This import is working.
+  // But I would recoomand to replace it will the full qualified name, as it not accidentially use the same other types if you split the file
+  // Solution: Replace the import with "company.project.domain.v1.LocalImport"
+  LocalImport test = 1;
+}
+
+message LocalImport {
+  string test = 1;
+}
