@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package samplecompany.styleguide.s01_typo_in_type.v1;
+package s02.v1;
 
 message TypoInType {
   strng test = 1;

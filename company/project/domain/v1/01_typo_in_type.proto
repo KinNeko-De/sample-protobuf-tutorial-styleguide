@@ -1,7 +1,0 @@
-syntax = "proto3";
-
-package company.project.domain.v1;
-
-message TypoInType {
-  strng test = 1;
-}

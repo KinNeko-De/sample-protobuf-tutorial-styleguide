@@ -1,7 +1,0 @@
-syntax = "proto3";
-
-package s01_typo_in_type.v1;
-
-message TypoInType {
-  strng test = 1;
-}

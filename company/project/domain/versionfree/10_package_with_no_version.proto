@@ -1,7 +1,0 @@
-syntax = "proto3";
-
-package company.project.domain.versionfree;
-
-message Test {
-  string test = 1;
-}

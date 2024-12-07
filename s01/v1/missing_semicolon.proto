@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package s01_missing_semicolon.v1;
+package s01.v1;
 
 message MissingSemicolon {
   string test = 1

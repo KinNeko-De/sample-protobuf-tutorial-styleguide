@@ -1,7 +1,0 @@
-syntax = "proto3";
-
-package company.project.domain.xyz.v1;
-
-message YouCanImportMe {
-  string test = 1;
-}

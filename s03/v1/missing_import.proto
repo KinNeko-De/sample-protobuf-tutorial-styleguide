@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package company.project.domain.v1;
+package s03.v1;
 
 // You need to import google.protobuf.Timestamp to use timestamps
 // Solution: Add the import statement after the package declaration : import "google/protobuf/timestamp.proto";
