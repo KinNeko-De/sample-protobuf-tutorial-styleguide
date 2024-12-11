@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package s17.v1;
+
+// The values were copied and renmane but the number was not changed.
+// enum ValidEnum {
+//   VALID_ENUM_UNSPECIFIED = 0;
+//   VALID_ENUM_FIRST_VALUE = 1;
+// }
+enum ValidEnum {
+  VALID_ENUM_UNSPECIFIED = 0;
+  VALID_ENUM_FIRST_VALUE = 0;
+}

@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-package s00.v1;
+package s11.v1;
 
-message ValidType {
+message valid_type {
   string test = 1;
 }

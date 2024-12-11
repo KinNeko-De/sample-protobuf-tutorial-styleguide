@@ -1,8 +1,9 @@
 syntax = "proto3";
 
-package cs07.v1;
+package s07.v1;
 
 // TODO the extension does not report the wrong type, buf lint does it
+// Solution rename the file to file_name_contains_spaces.proto
 message BadFileName {
-  sting test = 1;
+  string test = 1;
 }

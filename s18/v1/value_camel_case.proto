@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package s18.v1;
+
+// Names should be CAPITALS_WITH_UNDERSCORES
+// enum CamelCase {
+//   CAMEL_CASE_UNSPECIFIED = 0;
+//   CAMEL_CASE_FIRST_VALUE = 1;
+// }
+enum CamelCase {
+  camelCaseUnspecified = 0;
+  camelCaseFirstValue = 1;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+// Package name does not contain a slah for each directory
+// Solution: Add a dot (.) for each directory: s14.v1
+package s14/v1;
+
+message ValidMessage {
+  string test_field = 1;
+}

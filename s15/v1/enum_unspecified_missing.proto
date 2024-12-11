@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package s15.v1;
+
+// The first value of an enum also the value that is set when the caller does not specify a value.
+// This also happens if the caller has an old version of the api contract and does not know about the enum
+// To identify such situation an enum should always have a UNSPECIFIED value with zero value.
+// Solution: Add UNSPECIFIED = 0; to the enum and increase the number of the other values by one.
+// enum ValidEnum {
+//   VALID_ENUM_UNSPECIFIED = 0;
+//   VALID_ENUM_FIRST_VALUE = 1;
+//   VALID_ENUM_SECOND_VALUE = 2;
+// }
+enum ValidEnum {
+  VALID_ENUM_FIRST_VALUE = 0;
+  VALID_ENUM_SECOND_VALUE = 1;
+}
