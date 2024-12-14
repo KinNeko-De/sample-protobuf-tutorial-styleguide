@@ -6,7 +6,6 @@ There are muliple samples that contains simple proto definitions. Each of this p
 
 | Sample | Context |
 |--------|---------|
-| s0x    | Syntax  |
 | s1x    | Message |
 | s2x    | Field   |
 | s3x    | Package |
