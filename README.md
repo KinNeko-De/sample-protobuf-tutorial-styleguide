@@ -1,10 +1,8 @@
 # Motivation
-This repository was created to examine protobuf editor extensions. The extension should detect all the errors in the proto files.
+This repository was created to explore protobuf editor extensions. The extension should be able to detect all errors in proto files.
 
 # Structure
-There are muliple samples that contains simple proto definitions. Each of this proto definition has at least one error.
-
-The samples are grouped by the context:
+There are muliple samples that contains simple proto definitions. Each of this proto definition has at least one error. The samples are grouped by the context:
 
 | Sample | Context |
 |--------|---------|
