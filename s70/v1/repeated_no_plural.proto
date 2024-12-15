@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package s21.v1;
+package s70.v1;
 
 message IContainAListOfStrings {
   // The field name is singular, but the field is repeated.
