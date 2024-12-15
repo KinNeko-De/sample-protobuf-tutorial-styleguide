@@ -11,3 +11,4 @@ package s501.v1;
 enum CAPITAL {
   CAPITAL_UNSPECIFIED = 0;
 }
+
