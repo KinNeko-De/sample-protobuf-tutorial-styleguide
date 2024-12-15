@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package s54.v1;
+package s512.v1;
 
 // Enum should name with the name of the enum in front of each value (CAPITALS_WITH_UNDERSCORES).
 // This is needed so that your enum works with c++

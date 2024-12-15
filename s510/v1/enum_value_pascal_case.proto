@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package s53.v1;
+package s510.v1;
 
 // Enum values names should be CAPITALS_WITH_UNDERSCORES
 // Solution: rename value to PASCAL_CASE_VALUE_UNSPECIFIED

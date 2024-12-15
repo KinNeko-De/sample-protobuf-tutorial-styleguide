@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package s55.v1;
+package s513.v1;
 
 // The first value of an enum also the value that is set when the caller does not specify a value.
 // This also happens if the caller has an old version of the api contract and does not know about the enum

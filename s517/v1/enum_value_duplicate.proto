@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package s59.v1;
+package s517.v1;
 
 enum ValidEnum {
   VALID_ENUM_UNSPECIFIED = 0;

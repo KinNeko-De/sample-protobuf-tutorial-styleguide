@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package s50.v1;
+package s500.v1;
 
 // Enum name should be PascalCase
 // Solution: rename enum to 'CamelCase'

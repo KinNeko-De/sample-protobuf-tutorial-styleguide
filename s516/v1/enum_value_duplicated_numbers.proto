@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package s58.v1;
+package s516.v1;
 
 // The values were copied and renmane but the number was not changed.
 // enum ValidEnum {
