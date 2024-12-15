@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package s100.v1;
+
+// Name of enum should be PascalCase
+message camelCase {
+  string test = 1;
+}
