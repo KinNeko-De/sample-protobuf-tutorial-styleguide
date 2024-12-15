@@ -1,11 +1,9 @@
 syntax = "proto3";
 
-package s13.v1;
+package s54.v1;
 
 // Enum should name with the name of the enum in front of each value (CAPITALS_WITH_UNDERSCORES).
 // This is needed so that your enum works with c++
-// This also happens if the caller has an old version of the api contract and does not know about the enum
-// To identify such situation an enum should always have a UNSPECIFIED value with zero value.
 // Solution: Add ENUM_NAME_ in front of each value
 // enum EnumName {
 //   ENUM_NAME_UNSPECIFIED = 0;

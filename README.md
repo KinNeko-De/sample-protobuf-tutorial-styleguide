@@ -1,6 +1,9 @@
 # Motivation
 This repository was created to explore protobuf editor extensions. The extension should be able to detect all errors in proto files.
 
+# Supported syntax
+The repository only covers syntax [proto3](https://protobuf.dev/programming-guides/proto3/) of protobuf.
+
 # Structure
 There are muliple samples that contains simple proto definitions. Each of this proto definition has at least one error. The samples are grouped by the context:
 

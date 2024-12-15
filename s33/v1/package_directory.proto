@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+// This package is also used in s33/v2/package_was_not_adapted.proto
+// Best would be to show errors in both files
+package s33.v1;
+
+message OneMessage {
+  string test = 1;
+}

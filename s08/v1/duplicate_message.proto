@@ -8,6 +8,7 @@ message DuplicateMessage {
 
 // Duplicate message definition
 // Solution: Rename the messsage to "NotADuplicateMessageAnymore"
+// TODO Breaks lint checks
 message DuplicateMessage {
   string another = 1;
 }
