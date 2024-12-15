@@ -6,12 +6,14 @@ There are muliple samples that contains simple proto definitions. Each of this p
 
 | Sample | Context |
 |--------|---------|
+| s0x    | File    |
 | s1x    | Message |
 | s2x    | Field   |
 | s3x    | Package |
 | s4x    | Import  |
 | s5x    | Enum    |
 | s6x    | Oneof   |
+| s7x    | Repeated |
 
 Oneof
 - naming camelCase/PascalCase
