@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package s111.v1;
+
+// This message is duplicated and also present in s111/v1/duplicate_multiple_files_second.proto
+message DuplicateInMultipleFiles {
+  string test = 1;
+}
+
+// TODO The extension reports the last file saved as the duplicate. So the error disappear and reappear when saving the files in different order. Sometimes the error disapperar on both files.

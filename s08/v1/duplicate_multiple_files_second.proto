@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-package company.project.domain.v1;
-
-// This message is duplicated and also present in s08/v1/duplicate_multiple_files_first.proto
-message DuplicateInMultipleFiles {
-  string test = 1;
-}

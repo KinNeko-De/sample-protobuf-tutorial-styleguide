@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package s400.v1;
+
+// Import a file is done based on the directory, so it must use slashes
+// Solution: import "google/protobuf/timestamp.proto";
+import "google.protobuf.timestamp.proto";
+
+message WrongImport {
+  google.protobuf.Timestamp test = 1;
+}

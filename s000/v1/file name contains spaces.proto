@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package s000.v1;
+
+// Solution rename the file to file_name_contains_spaces.proto
+message BadFileName {
+  string test = 1;
+}

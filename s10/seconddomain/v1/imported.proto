@@ -1,7 +1,0 @@
-syntax = "proto3";
-
-package s10.seconddomain.v1;
-
-message YouCanImportMe {
-  string test = 1;
-}

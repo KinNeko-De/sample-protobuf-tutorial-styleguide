@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package s211.v1;
+
+// TODO Remove number
+// Solution: Add the number 1 to the field 'test'
+message MissingNumber {
+  string test = 1;
+}
+
+// TODO breaks the extension 💣

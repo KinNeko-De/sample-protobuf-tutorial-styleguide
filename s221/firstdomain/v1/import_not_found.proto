@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package s221.firstdomain.v1;
+
+// The following import statement is invalid because the file does not exist. there us is a typo in 'seconDdomain'.
+// Solution: change the import to "s221/seconddomain/v1/imported.proto"
+import "s221/secondomain/v1/imported.proto";
+
+// Imported message from another file must be used with a fully qualified name.
+// Solution: Replace "YouCanImportMe" with "s221.seconddomain.v1.YouCanImportMe"
+message IImport {
+  YouCanImportMe test = 1;
+}

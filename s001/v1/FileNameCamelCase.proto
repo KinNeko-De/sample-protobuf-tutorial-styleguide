@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package s001.v1;
+
+// Solution rename the file to file_name_camel_case.proto
+message BadFileName {
+  string test = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+// This package name does not match the directory structure.
+// The proto file was copied but the package name was not updated.
+// Solution: Update the package name to "s310.v2"
+package s310.v1;
+
+message PackageNameDoesNotMatchDirectory {
+  string test = 1;
+}

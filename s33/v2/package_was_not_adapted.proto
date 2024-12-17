@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-// This file was copied by the package was not changed
-package s33.v1;
-
-message AnotherMessage {
-  string test = 1;
-}

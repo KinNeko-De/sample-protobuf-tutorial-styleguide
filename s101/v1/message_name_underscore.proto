@@ -1,7 +1,8 @@
 syntax = "proto3";
 
-package s11.v1;
+package s101.v1;
 
-message valid_type {
+// Solurion: Rename the message to UnderScore
+message under_score {
   string test = 1;
 }

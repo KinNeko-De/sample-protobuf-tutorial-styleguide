@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+// Package name does not contain a slah for each directory
+// Solution: Add a dot (.) for each directory: s14.v1
+// TODO Rename to s30/v1 after completed.. the extension breaks
+package s300.v1;
+
+// TODO breaks the extension 💣
+
+message ValidMessage {
+  string test_field = 1;
+}

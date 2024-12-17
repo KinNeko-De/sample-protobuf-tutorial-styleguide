@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package s210.v1;
+
+// TODO remove semicolon
+message MissingSemicolon {
+  string test = 1
+}

@@ -1,7 +1,0 @@
-syntax = "proto3";
-
-package s12.v1;
-
-message FieldNamePascalCase {
-  string TestField = 1;
-}

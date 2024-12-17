@@ -1,7 +1,0 @@
-syntax = "proto3";
-
-package s01.v1;
-
-message MissingSemicolon {
-  string test = 1
-}

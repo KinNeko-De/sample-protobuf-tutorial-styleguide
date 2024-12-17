@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package s411.v1;
+
+// This import is not used
+// TODO Is not reported by the extension, but by the buf linter, it is detected if I move it to the other package
+import "google/protobuf/timestamp.proto";
+
+message UnusedImport {
+  string test = 1;
+}

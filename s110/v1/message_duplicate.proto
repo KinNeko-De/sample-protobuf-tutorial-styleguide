@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package s110.v1;
+
+message DuplicateMessage {
+  string test = 1;
+}
+
+// Duplicate message definition
+// Solution: Rename the messsage to "NotADuplicateMessageAnymore"
+message DuplicateMessage {
+  string another = 1;
+}

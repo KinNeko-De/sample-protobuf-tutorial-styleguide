@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package s200.v1;
+
+message FieldNameCamelCase {
+  string testField = 1;
+}

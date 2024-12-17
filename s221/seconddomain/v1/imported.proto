@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package s221.seconddomain.v1;
+
+message YouCanImportMe {
+  string test = 1;
+}
