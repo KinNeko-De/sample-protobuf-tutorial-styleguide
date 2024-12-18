@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package s515.v1;
+
+// The first value of the enum must have a number of 0.
+// Solution: Change the number of ENUM_NAME_UNSPECIFIED to 0.
+// enum EnumName {
+//   ENUM_NAME_UNSPECIFIED = 0;
+// }
+enum EnumName {
+  ENUM_NAME_UNSPECIFIED = 1;
+}

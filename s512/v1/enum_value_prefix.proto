@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package s512.v1;
+
+// Enum should name with the name of the enum in front of each value.
+// This is needed so that your enum works with c++
+// Solution: Add ENUM_NAME_ in front of each value
+// enum EnumName {
+//   ENUM_NAME_UNSPECIFIED = 0;
+//   ENUM_NAME_FIRST_VALUE = 1;
+// }
+enum EnumName {
+  UNSPECIFIED = 0;
+  FIRST_VALUE = 1;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package s411.v1;
+
+// This import is not used
+// Solution: Remove the import staeement
+import "google/protobuf/timestamp.proto";
+
+message UnusedImport {
+  string test = 1;
+}

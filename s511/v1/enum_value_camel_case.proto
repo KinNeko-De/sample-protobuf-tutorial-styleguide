@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package s511.v1;
+
+// Enum value name should be CAPITALS_WITH_UNDERSCORES
+// Solution: rename value to CAMEL_CASE_VALUE_UNSPECIFIED
+// enum CamelCaseValues {
+//   CAMEL_CASE_VALUE_UNSPECIFIED = 0;
+// }
+enum CamelCaseValue {
+  camelCaseValueUnspeficied = 0;
+}

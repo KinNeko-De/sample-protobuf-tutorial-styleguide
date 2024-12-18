@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package s513.v1;
+
+// The first value of an enum also the value that is set when the caller does not specify a value.
+// This also happens if the caller has an old version of the api contract and does not know about the enum
+// To identify such situation an enum should always have a UNSPECIFIED value with zero value.
+// Solution: Add UNSPECIFIED_MANDATORY_UNSPECIFIED = 0; to the enum and increase the number of the other values by one.
+// enum UnspecifiedMandatory {
+//   UNSPECIFIED_MANDATORY_UNSPECIFIED = 0;
+//   UNSPECIFIED_MANDATORY_FIRST_VALUE = 1;
+// }
+enum UnspecifiedMandatory {
+  UNSPECIFIED_MANDATORY_FIRST_VALUE = 0;
+}

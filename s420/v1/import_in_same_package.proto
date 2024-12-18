@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package s420.v1;
+
+message IUseALocalIMessage {
+  // This import is working.
+  // But I would recoomand to replace it will the full qualified name, as it not accidentially use the other types if you split the file
+  // Solution: Replace the import with "s420.v1.IAmUsed"
+  IAmUsed test = 1;
+}
+
+message IAmUsed {
+  string test = 1;
+}

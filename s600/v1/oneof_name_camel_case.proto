@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package s600.v1;
+
+message OneOnf {
+  oneof personType {
+    string natural_name = 1;
+    string company_name = 2;
+  }
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package s610.v1;
+
+message OneOnf {
+  string id = 1;
+  // The oneof property need a fortlaufende numbe along with the other field of the message
+  // The oneof field needs a consecutive number along with the other fields of the message
+  // Solution: Set the tag number of the oneof fields to 2 and 3
+  oneof person {
+    string natural_name = 1;
+    string company_name = 2;
+  }
+}

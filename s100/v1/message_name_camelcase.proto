@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package s100.v1;
+
+// Name of message should be PascalCase
+// Solution: Rename the message to CamelCase
+message camelCase {
+  string test = 1;
+}

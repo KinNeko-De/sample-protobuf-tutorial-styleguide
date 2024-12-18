@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package s201.v1;
+
+// Field names should be snake_case
+// Solution: Rename the field to test_field
+message FieldNamePascalCase {
+  string TestField = 1;
+}

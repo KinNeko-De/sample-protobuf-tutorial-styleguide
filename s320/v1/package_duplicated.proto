@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+// This package is also used in s320/v2/package_was_not_adapted.proto
+// Best would be to show errors in both files
+package s320.v1;
+
+message OneMessage {
+  string test = 1;
+}
