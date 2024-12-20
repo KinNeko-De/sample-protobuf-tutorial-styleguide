@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package s101.v1;
 
-// Solurion: Rename the message to UnderScore
+// Solution: Rename the message to UnderScore
 message under_score {
   string test = 1;
 }

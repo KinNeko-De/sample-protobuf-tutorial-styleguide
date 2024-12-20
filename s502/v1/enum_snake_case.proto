@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package s502.v1;
+
+// Names should be PascalCase
+// Solution: Rename enum to CapitalEnum
+// enum CapitalEnum {
+//  CAPITAL_ENUM_UNSPECIFIED = 0;
+// }
+enum capital_enum {
+  CAPITAL_ENUM_UNSPECIFIED = 0;
+}

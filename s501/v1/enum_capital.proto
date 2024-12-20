@@ -7,7 +7,6 @@ package s501.v1;
 // enum Capital {
 //  CAPITAL_UNSPECIFIED = 0;
 // }
-
 enum CAPITAL {
   CAPITAL_UNSPECIFIED = 0;
 }

@@ -2,8 +2,8 @@ syntax = "proto3";
 
 package s514.v1;
 
-// The first value of the enum must have a number of 0.
-// Solution: Change the number of ENUM_NAME_UNSPECIFIED to 0.
+// Every enum value should have a tag number
+// Solution: Add the tag number to ENUM_NAME_UNSPECIFIED
 // enum EnumName {
 //   ENUM_NAME_UNSPECIFIED = 0;
 // }
