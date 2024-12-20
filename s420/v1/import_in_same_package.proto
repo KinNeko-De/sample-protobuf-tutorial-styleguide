@@ -4,7 +4,7 @@ package s420.v1;
 
 message IUseALocalIMessage {
   // This import is working.
-  // But I would recoomand to replace it will the full qualified name, as it not accidentially use the other types if you split the file
+  // However, it is advisable to replace it with the full qualified name to avoid inadvertently using the other types when the file is split.
   // Solution: Replace the import with "s420.v1.IAmUsed"
   IAmUsed test = 1;
 }

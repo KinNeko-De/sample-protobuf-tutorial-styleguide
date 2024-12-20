@@ -7,7 +7,7 @@ message DuplicateMessage {
 }
 
 // Duplicate message definition
-// Solution: Rename the messsage to "NotADuplicateMessageAnymore"
+// Solution: Rename the message to "NotADuplicateMessageAnymore"
 message DuplicateMessage {
   string another = 1;
 }

@@ -9,7 +9,7 @@ message OneOnf {
   }
 
   // Fields inside message needs to have unique names even if they are inside a oneof
-  // Solution: Rename the field to or extract it to a separate message
+  // Solution: Rename the fields and extract them to a separate message
   oneof customer {
     string natural = 3;
     string company = 4;
