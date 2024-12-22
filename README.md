@@ -1,3 +1,5 @@
+![Protobuf errors and how to fix them](header.jpg)
+
 # Motivation
 This repository was established for the purpose of investigating the potential of protobuf editor extensions. It is expected that the extension will be capable of detecting all errors within proto files.
 
