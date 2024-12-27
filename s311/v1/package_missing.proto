@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+package s311.v1;
+
 message ValidMessage {
   string test = 1;
 }
