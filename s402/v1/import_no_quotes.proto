@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package s402.v1;
 
-// Import must end with a semicolon
+// Import must be inside of double quotes
 // Solution: import "google/protobuf/timestamp.proto";
 import google/protobuf/timestamp.proto;
 
