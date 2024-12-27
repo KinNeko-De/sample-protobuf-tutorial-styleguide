@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-// Package name does not contain a slash for each directory
-// Solution: Add a dot (.) for each directory: s300.v1
+// Package name must be lower case
+// Solution: Rename the folder from V1 to v1 and change the package name to s301.v1
 package s301.V1;
 
 message ValidMessage {
