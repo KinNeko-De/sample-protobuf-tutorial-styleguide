@@ -2,8 +2,8 @@ syntax = "proto3";
 
 package s516.v1;
 
-// The values were copied and renmane but the number was not changed.
-// enum ValidEnum {
+// The values were copied and renamed but the number was not changed.
+// enum Enum {
 //   ENUM_UNSPECIFIED = 0;
 //   ENUM_FIRST_VALUE = 1;
 // }
